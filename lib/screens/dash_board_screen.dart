@@ -1,5 +1,5 @@
 import 'package:dashboardapp/widgets/adaptive_Ui_controller.dart';
-import 'package:dashboardapp/widgets/desktop_layout_widget.dart';
+import 'package:dashboardapp/screens/layouts/desktop/desktop_layout_widget.dart';
 import 'package:flutter/material.dart';
 
 class DashBoardScreen extends StatelessWidget {

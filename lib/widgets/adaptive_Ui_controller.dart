@@ -18,7 +18,7 @@ class AdabtiveLayoutBuilder extends StatelessWidget {
       child: LayoutBuilder(
           builder: (BuildContext context, BoxConstraints constraints) {
         log( constraints.maxWidth.toString());
-         if(constraints.maxWidth > 900) {
+         if(constraints.maxWidth > 1200) {
           return desktoplayout(context);
         } else if (constraints.maxWidth > 500) {
           return tabletlayout(context);

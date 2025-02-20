@@ -1,7 +1,7 @@
 import 'package:dashboardapp/utils/constants.dart';
-import 'package:dashboardapp/widgets/custom_drawer.dart';
-import 'package:dashboardapp/widgets/last_part_widget.dart';
-import 'package:dashboardapp/widgets/mid_part_widget.dart';
+import 'package:dashboardapp/screens/layouts/desktop/components/custom_drawer.dart';
+import 'package:dashboardapp/screens/layouts/desktop/components/last_part_widget.dart';
+import 'package:dashboardapp/screens/layouts/desktop/components/mid_part_widget.dart';
 import 'package:flutter/material.dart';
 
 class DesktopLayoutWidget extends StatelessWidget {
@@ -22,7 +22,7 @@ class DesktopLayoutWidget extends StatelessWidget {
       
       Expanded(
         flex: 3,
-          child: lastPartWidget(),
+          child: LastPartWidget(),
         ),
       
       ],),
